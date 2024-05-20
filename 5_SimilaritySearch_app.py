@@ -1,7 +1,6 @@
 import streamlit as st
 import spacy
 import ginza
-from ginza import ja_ginza
 import pandas as pd
 
 nlp = spacy.load('ja_ginza')
