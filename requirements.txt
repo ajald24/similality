@@ -2,3 +2,4 @@ pandas
 streamlit
 spacy
 ginza
+ja_ginza
