@@ -1,4 +1,4 @@
 pandas
 streamlit
 spacy
-ginza ja-ginza
+ginza
