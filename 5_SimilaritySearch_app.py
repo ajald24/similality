@@ -45,6 +45,6 @@ if uploaded_file is not None:
                 # st.write(input_text)
                 # st.write(tg_col)
                 # st.dataframe(tg_data)
-            tg_data.reset_index()
+            tg_data.reset_index(inplace=True)
             st.dataframe(tg_data)
             
