@@ -41,6 +41,7 @@ if uploaded_file is not None:
                 
     
     # Output
+st.title('類似度計算')
         # st.write(f'類似度：{round(similarity, 2)}')
                 # st.write(input_text)
                 # st.write(tg_col)
