@@ -3,6 +3,9 @@ import spacy
 import ginza
 import pandas as pd
 
+# タイトル
+st.title('類似度計算')
+
 nlp = spacy.load('ja_ginza')
 # col1, col2 = st.columns(2)
 
@@ -41,7 +44,6 @@ if uploaded_file is not None:
                 
     
     # Output
-st.title('類似度計算')
         # st.write(f'類似度：{round(similarity, 2)}')
                 # st.write(input_text)
                 # st.write(tg_col)
